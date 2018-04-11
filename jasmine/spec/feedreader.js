@@ -101,10 +101,8 @@ $(function() {
                 });
             });
         });
-        it('loadFeed 函数加载一个新源的时候内容会真的改变', function (done) {
+        it('loadFeed 函数加载一个新源的时候内容会真的改变', function () {
             expect($('.feed').text() != feed0).toBe(true);
-            done();
         });
     });
-        
 }());
